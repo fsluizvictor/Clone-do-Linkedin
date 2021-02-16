@@ -1,14 +1,14 @@
 import React from 'react';
 import {
     Container,
-    Wrapper,
-    LinkedinIcon,
-    SearchInput,
-    HomeIcon,
-    NotificationsIcon,
     ProfileCircle,
+    SearchInput,
+    Wrapper,
     CaretDownIcon,
-} from '../MobileHeader/styles';
+    HomeIcon,
+    LinkedinIcon,
+    NotificationsIcon
+} from '../DesktopHeader/styles';
 
 const DesktopHeader: React.FC = () => {
     return (
