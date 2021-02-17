@@ -6,7 +6,7 @@ import LeftColumn from '../LeftColumn';
 import MiddleColumn from '../MiddleColumn';
 import RightColumn from '../RightColumn';
 
-import { Container } from '../AdBanner/styles';
+import { Container } from './styles';
 
 const Layout: React.FC = () => {
     const [isLoading, setIsLoading] = useState(true)
